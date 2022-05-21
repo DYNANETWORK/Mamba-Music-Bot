@@ -27,9 +27,9 @@ Use the given buttons for more 📍""",
             [
                 [
                     InlineKeyboardButton(
-                        "About", callback_data="cbabout"),
+                        "About", callback_data="MAMBA_NETWORK"),
                     InlineKeyboardButton(
-                        "Commands", callback_data="cbcmds")
+                        "Commands", callback_data="MAMBA_NETWORK")
                 ],
                 [
                     InlineKeyboardButton(
@@ -49,7 +49,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🤖 Bot Owner", url=f"https://t.me/{OWNER_USERNAME}")
+                        "🤖 Bot Owner", url=f"https://t.me/BLACK_MAMBA_RETURNS_OP")
                 ]
             ]
         ),
