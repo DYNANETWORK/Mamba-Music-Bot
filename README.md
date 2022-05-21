@@ -40,20 +40,20 @@
 
 
 ### 🚨 Generate String Session
-      @M8N_SESSION_BOT by using this bot
+      repl.it by using this bot
 
 
 ### 🚀 Deploy To Heroku
   
-  <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/UnknownMortal/M8N-Music-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-yellow?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+  <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/SUKHPAL443/Mamba-Music-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-yellow?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 ## Contact & Support
 
-<a href="https://t.me/M8N_SUPPORT"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a><br>
-<a href="https://t.me/M8N_OFFICIAL"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a><br>
-<a href="https://t.me/Its_romeoo"><img src="https://img.shields.io/badge/Contact-Bot%20Developer-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/MAMBA_SUPPORT"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a><br>
+<a href="https://t.me/MAMBA_NETWORK"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a><br>
+<a href="https://t.me/BLACK_MAMBA_RETURNS_OP"><img src="https://img.shields.io/badge/Contact-Bot%20Developer-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## License
 
-Distributed under the [GNU General Public License v3.0 License](https://github.com/UnknownMortal/M8N-Music-Bot/blob/main/LICENSE) See `LICENSE.md` for more information.
+Distributed under the [GNU General Public License v3.0 License](https://github.com/SUKHPAL443/Mamba-Music-Bot/blob/main/LICENSE) See `LICENSE.md` for more information.
