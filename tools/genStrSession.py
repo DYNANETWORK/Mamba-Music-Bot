@@ -1,30 +1,30 @@
-import os
+"""Generate Pyrogram Session String and send it to
+Saved Messages of your Telegram account
+
+requirements:
+- Pyrogram
+
+Get your Telegram API Key from:
+https://my.telegram.org/apps
+"""
 import asyncio
-
 from pyrogram import Client
-from pyrogram.errors import UserIsBot
-
-from m8n.config import API_ID, API_HASH
 
 
-async def genStrSession() -> None:
-    async with Client(
-        "Music",
-        API_ID or input("Enter Telegram APP ID: "),
-        API_HASH or input("Enter Telegram API HASH: "),
-    ) as music:
-        print("\nprocessing...")
-        doneStr = "sent to saved messages!"
-        try:
-            await music.send_message(
-                "me",
-                f"#M8N #PYROGRAM_STRING_SESSION\n\n```{await music.export_session_string()}```",
-            )
-        except UserIsBot:
-            doneStr = "successfully printed!"
-            print(await music.export_session_string())
-        print(f"Done !!, session string has been {doneStr}")
-
-
+async def main():
+    api_id = int(input("API ID: "))
+    api_hash = input("API HASH: ")
+    async with Client(":memory:", api_id=api_id, api_hash=api_hash) as app:
+        await app.send_message(
+            "me",
+            "**Pyrogram Session String**:\n\n"
+            f"`{await app.export_session_string()}`"
+        )
+        print(
+            "Done, your Pyrogram session string has been sent to "
+            "Saved Messages of your Telegram account!.\n Join @MAMBA_NETWORK"
+        )
+  
 if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(genStrSession())
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())
